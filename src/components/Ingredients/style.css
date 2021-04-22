@@ -1,0 +1,31 @@
+.ingredients__container {
+  margin-left: 8px;
+  top: 96px;
+
+  border-bottom: 1px solid #e8a634;
+}
+
+.ingredients__container p:first-child {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #4e4e4e;
+}
+
+.ingredients__container p:last-child {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #f09035;
+}
+
+.container__buttons {
+  display: flex;
+  justify-content: flex-end;
+}

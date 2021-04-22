@@ -1,0 +1,33 @@
+.buttons__container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    justify-content: space-around;
+  
+  
+    height: 32px;
+  
+    background: #ffffff;
+  
+    border: 1px solid #f09035;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  .buttons__container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 1.5rem;
+  
+    color: #d80000;
+    background-color: white;
+    border: none;
+  }
+  
+  @media(max-width: 565px){
+    .buttons__container {
+      width: 330px;
+    }
+  }

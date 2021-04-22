@@ -1,0 +1,18 @@
+.containerLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerLogin__title {
+  color: #ed3237;
+  margin-left: 5px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+
+  letter-spacing: 0.2px;
+}

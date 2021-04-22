@@ -1,0 +1,48 @@
+.main__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__carrinho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrinho__numberOfItens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+  top: 1.25rem;
+  margin-left: -2.3rem;
+
+  width: 14px;
+  height: 14px;
+  background: #f09035;
+
+  border-radius: 50%;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.2px;
+
+  color: #ffffff;
+}
+
+.carrinho__titleColor {
+  color: #ed3237;
+  margin-left: 5px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+
+  letter-spacing: 0.2px;
+}

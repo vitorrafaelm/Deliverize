@@ -1,0 +1,35 @@
+.button {
+  width: 219px;
+  height: 40px;
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f09035;
+  border: none;
+}
+
+.button span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 10px;
+
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.33px;
+
+  color: #ffffff;
+}
+
+@media(max-width: 565px){
+  .button{
+    width: 195px;
+  }
+}
